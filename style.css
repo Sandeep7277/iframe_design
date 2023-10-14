@@ -42,7 +42,7 @@
     width: 75%;
     float: right;
     margin: 10px;
-    height: 500px;
+    /* height: 500px; */
     margin-left: 0;
 }
 .footer{
@@ -53,7 +53,6 @@
     font-size: 30px;
     text-align: center;
     padding: 10PX;
-    box-sizing: border-box;
 }
 
 .header_page{
@@ -80,16 +79,18 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-items: center;
-    justify-content: space-around;
+    gap: 30px;
+    padding-left: 20px;
+    /* justify-items: center; */
+    /* justify-content: space-around; */
      
 }
 .card{
     display: flex;
     flex-direction: column;
-    width: 23%;
+    width: 30%;
     height: 400px;
-    border: 1px solid black;
+    border: 1px solid #ddd;
     /* box-sizing: border-box; */
 }
 .card-head{
@@ -99,8 +100,9 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    /* align-items: first bas; */
-    /* box-sizing: border-box; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .card-head span{
 width: 40px;
@@ -121,44 +123,28 @@ visibility: collapse;
     background-color: red;
 }
 .kid_card1-head{
-    background-image: url(./public/image/kid1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(./public/image/kid1.jpg);  
 }
 .kid_card1-head:hover{
     background-image: url(./public/image/kid2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .kid_card2-head{
     background-image: url(./public/image/kid3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .kid_card2-head:hover{
     background-image: url(./public/image/kid4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .kid_card3-head{
     background-image: url(./public/image/kid5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .kid_card3-head:hover{
     background-image: url(./public/image/kid6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .kid_card4-head{
     background-image: url(./public/image/kid7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .kid_card4-head:hover{
     background-image: url(./public/image/kid8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .card-body{
@@ -181,126 +167,188 @@ visibility: collapse;
 
 .men_card1-head{
     background-image: url(./public/image/men1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .men_card1-head:hover{
     background-image: url(./public/image/men2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .men_card2-head{
     background-image: url(./public/image/men3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .men_card2-head:hover{
     background-image: url(./public/image/men4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .men_card3-head{
     background-image: url(./public/image/men5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .men_card3-head:hover{
     background-image: url(./public/image/men6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .men_card4-head{
     background-image: url(./public/image/men7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .men_card4-head:hover{
     background-image: url(./public/image/men8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 
 .women_card1-head{
     background-image: url(./public/image/women1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .women_card1-head:hover{
     background-image: url(./public/image/women2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .women_card2-head{
     background-image: url(./public/image/women3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .women_card2-head:hover{
     background-image: url(./public/image/women4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .women_card3-head{
     background-image: url(./public/image/women5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .women_card3-head:hover{
     background-image: url(./public/image/women6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .women_card4-head{
     background-image: url(./public/image/women7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .women_card4-head:hover{
     background-image: url(./public/image/women8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 
 
 .mobile_card1-head{
     background-image: url(./public/image/samsung1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .mobile_card1-head:hover{
     background-image: url(./public/image/samsung2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .mobile_card2-head{
     background-image: url(./public/image/realme1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .mobile_card2-head:hover{
     background-image: url(./public/image/realme2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .mobile_card3-head{
     background-image: url(./public/image/oppo1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .mobile_card3-head:hover{
     background-image: url(./public/image/oppo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .mobile_card4-head{
     background-image: url(./public/image/vivo1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .mobile_card4-head:hover{
     background-image: url(./public/image/vivo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+
+
+@media screen and (max-width:900px){
+   
+    .cards{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding-left: 10px;
+        /* justify-items: center; */
+        justify-content: center;
+         
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 400px;
+        border: 1px solid grey;
+        justify-self: center;
+    }
+    .navbar{
+        width: 35%;   
+    }
+    .main{
+        width: 60%;
+    }
+  
+}
+
+
+    @media screen and (max-width:600px){
+       
+        .navbar a{
+            border: 1px solid grey;
+            padding: 12px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            color: blue;
+            margin: 8px;
+            background-color: aquamarine;
+        }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 400px;
+        border: 1px solid #ddd;
+    }  
+}
+   
+
+
+@media screen and (max-width:480px){
+    .header{
+        width: 100%;
+        height: 80px;
+        background:linear-gradient(lightgreen,blue,cyan);
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20PX;
+        /* box-sizing: border-box; */
+    }
+    .section{
+        width: 100%;
+        /* height: 500px; */
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    .navbar{
+        width: 90%;
+        height: auto;   
+    }
+    .main{
+        width: 90%;
+        height: auto;
+    }
+    .navbar a{
+        border: 1px solid grey;
+        padding: 12px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: blue;
+        margin: 8px;
+        background-color: aquamarine;
+    }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 400px;
+    border: 1px solid #ddd;
+} 
+.footer{
+    font-size: 20px;
+    padding: 10PX;
+} 
+}
+
+
+
